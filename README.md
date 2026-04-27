@@ -23,4 +23,15 @@
    || Логічне "АБО".
    ! Логічне "НІ".
 3. МЕТОДИ РЯДКІВ.
+   slice()
+   includes()
+   indexOf()
+   toUpperCase()
+   toLoweCase()
+   startsWith()
+   endsWith()
+   trim()
 4. ЦИКЛИ.
+   while
+   do while
+   for, Інкремент та Декремент
