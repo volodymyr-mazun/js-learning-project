@@ -37,3 +37,10 @@
 //   }
 //   return total;
 // }
+
+//* ========== ПСЕВДОМАСИВ ==========
+// function createReversedArray() {
+//   const arrayAllArg = Array.from(arguments);
+//   const arrayReversed = arrayAllArg.toReversed();
+//   return arrayReversed;
+// }
