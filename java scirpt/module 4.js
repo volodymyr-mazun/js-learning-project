@@ -59,3 +59,49 @@
 //     }
 //   }
 // }
+
+//* ========== МЕТОДИ ВИВЕДЕННЯ, ДДОДАВАННЯ ТА ПЕРЕБІР ОБЄКТА ==========
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     this.potions.push(newPotion);
+//   },
+//   getTotalPrice() {
+//     let totalPrice = 0;
+//     for (const potion of this.potions) {
+//       totalPrice += potion.price;
+//     }
+//     return totalPrice;
+//   },
+// };
+
+//* ========== МЕТОД ПОШУКУ НАЗВИ І ЗМІНИ НАЗВИ ==========
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   updatePotionName(oldName, newName) {
+//     for (const potion of this.potions) {
+//       if (potion.name === oldName) {
+//         potion.name = newName;
+//       }
+//     }
+//   },
+// };
+
+//* ========== СТВОРЕННЯ МАСИВУ ==========
+// const lastWeekTemps = [14, 25, 11];
+// const currentWeekTemps = [23, 17, 18];
+// const allTemps = [...lastWeekTemps, ...currentWeekTemps];
+
+//* ========== СТВОРЕННЯ ОБЄКТУ ==========
+// const first = { propA: 5, propB: 10 };
+// const second = { propC: 15 };
+// const third = { ...first, ...second };
