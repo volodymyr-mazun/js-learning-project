@@ -28,3 +28,11 @@
 //   });
 //   return filteredNumbers;
 // };
+
+//* ========== СТРІЛОЧНА ФУНКЦІЯ, МЕТОД MAP ==========
+// const getUserEmails = (users) => {
+//   return users.map((user) => user.email);
+// };
+
+//* ========== МЕТОД FLATMAP ==========
+// const genres = book.flatMap((book) => book.genres);
