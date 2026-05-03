@@ -36,3 +36,12 @@
 
 //* ========== МЕТОД FLATMAP ==========
 // const genres = book.flatMap((book) => book.genres);
+
+//* ========== МЕТОД FILTER ==========
+// const best = students.filter((student) => student.score >= HIGH_SCORE);
+// const worst = students.filter((student) => student.score < LOW_SCORE);
+
+//* ========== МЕТОД FIND ==========
+// const getUserWithEmail = (users, email) => {
+//   return users.find((user) => user.email === email);
+// };
