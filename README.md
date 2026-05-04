@@ -91,3 +91,7 @@
    Масив обєктів.
 4. МЕТОДИ FILTER І FIND.
    Методи на масиві обєктів.
+5. МЕТОДИ EVERY, SOME, REDUCE.
+   EVERY-задовільняють умову, елементи масиву.
+   SOME-задовільняє умову, один елемент масиву.
+   array.reduce((previousValue, element, index, array), initialValue);

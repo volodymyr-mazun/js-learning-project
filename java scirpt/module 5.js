@@ -45,3 +45,31 @@
 // const getUserWithEmail = (users, email) => {
 //   return users.find((user) => user.email === email);
 // };
+
+//* ========== МЕТОД EVERY ==========
+// const isEveryUserActive = (users) => {
+//   const hasActiveUsers = users.every((user) => user.isActive === true);
+//   if (hasActiveUsers) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+
+//* ========== МЕТОД SOME ==========
+// const isAnyUserActive = (users) => {
+//   const hasActiveUsers = users.some((user) => user.isActive === true);
+//   if (hasActiveUsers) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// };
+
+//* ========== МЕТОД REDUCE ==========
+// const calculateTotalBalance = (users) => {
+//   const totalBalance = users.reduce((previousValue, user) => {
+//     return previousValue + user.balance;
+//   }, 0);
+//   return totalBalance;
+// };
