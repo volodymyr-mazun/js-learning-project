@@ -73,3 +73,11 @@
 //   }, 0);
 //   return totalBalance;
 // };
+
+//* ========== МЕТОД TOSORTED. ==========
+// const names = books
+//   .filter((book) => book.rating > 8)
+//   .map((book) => book.author)
+//   .toSorted((firstAuthor, secondAuthor) =>
+//     firstAuthor.localeCompare(secondAuthor),
+//   );
