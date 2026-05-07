@@ -33,4 +33,18 @@
 // }
 // makeMessage(customer.getFullName.bind(customer));
 
-//* ========== МЕТОД BIND ТА КАЛБЕКИ. ==========
+//* ========== СТВОРЕННЯ ПРОТОТИПУ. ==========
+// const child = Object.create(parent);
+
+//* ========== ПЕРЕВІРКА ПРОТОТИПУ. ==========
+// const testingProp = parent.isPrototypeOf(child);
+
+//* ========== СТВОРЕННЯ ПРОТОТИПУ. ==========
+// const checkProp = dog.hasOwnProperty("legs");
+
+//* ========== ПЕРЕБІР ВЛАСТИВОСТЕЙ ВЛАСНИХ. ==========
+// for (const key in dog) {
+//   if (dog.hasOwnProperty(key)) {
+//     console.log(key);
+//   }
+// }
