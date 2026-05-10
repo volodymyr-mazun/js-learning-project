@@ -117,3 +117,39 @@
 // const bmw = new Car({ price: 64000 });
 // console.log(Car.checkPrice(audi.price));
 // console.log(Car.checkPrice(bmw.price));
+
+//* ========== НАСЛІДУВАННЯ КЛАСІВ. ==========
+// class Admin extends User {
+//   static role = {
+//     BASIC: "basic",
+//     SUPERUSER: "superuser",
+//   };
+// }
+
+//* ========== КОНСТРУКТОР ДОЧІРНЬОГО КЛАСУ. ==========
+class User {
+  email;
+
+  constructor(email) {
+    this.email = email;
+  }
+
+  get email() {
+    return this.email;
+  }
+
+  set email(newEmail) {
+    this.email = newEmail;
+  }
+}
+
+class Admin extends User {
+  static role = {
+    BASIC: "basic",
+    SUPERUSER: "superuser",
+  };
+  constructor(params) {
+    super(params.email);
+    this.access = params.access;
+  }
+}
