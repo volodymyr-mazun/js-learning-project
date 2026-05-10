@@ -97,3 +97,23 @@
 //     this.#price = newPrice;
 //   }
 // }
+
+//* ========== СТАТИЧНІ ВЛАСТИВОСТІ, МЕТОДИ. ==========
+// class Car {
+//   static #maxPrice = 50000;
+//   static checkPrice(price) {
+//     if (Car.#maxPrice < price) {
+//       return "Error! Price exceeds the maximum";
+//     } else {
+//       return "Success! Price is within acceptable limits";
+//     }
+//   }
+//   price;
+//   constructor(params) {
+//     this.price = params.price;
+//   }
+// }
+// const audi = new Car({ price: 36000 });
+// const bmw = new Car({ price: 64000 });
+// console.log(Car.checkPrice(audi.price));
+// console.log(Car.checkPrice(bmw.price));
