@@ -127,29 +127,83 @@
 // }
 
 //* ========== КОНСТРУКТОР ДОЧІРНЬОГО КЛАСУ. ==========
-class User {
-  email;
+// class User {
+//   email;
 
-  constructor(email) {
-    this.email = email;
-  }
+//   constructor(email) {
+//     this.email = email;
+//   }
 
-  get email() {
-    return this.email;
-  }
+//   get email() {
+//     return this.email;
+//   }
 
-  set email(newEmail) {
-    this.email = newEmail;
-  }
-}
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
 
-class Admin extends User {
-  static role = {
-    BASIC: "basic",
-    SUPERUSER: "superuser",
-  };
-  constructor(params) {
-    super(params.email);
-    this.access = params.access;
-  }
-}
+// class Admin extends User {
+//   static role = {
+//     BASIC: "basic",
+//     SUPERUSER: "superuser",
+//   };
+//   constructor(params) {
+//     super(params.email);
+//     this.access = params.access;
+//   }
+// }
+
+//* ========== МЕТОДИ ДОЧІРНЬОГО КЛАСУ. ==========
+// class ContentEditor extends User {
+//   constructor(params) {
+//     super(params.email);
+//     this.post = params.post;
+//   }
+//   addPost(post) {
+//     this.post.push(post);
+//   }
+// }
+
+//* ========== МЕТОДИ ДОЧІРНЬОГО КЛАСУ. ==========
+// class User {
+//   email;
+
+//   constructor(email) {
+//     this.email = email;
+//   }
+
+//   get email() {
+//     return this.email;
+//   }
+
+//   set email(newEmail) {
+//     this.email = newEmail;
+//   }
+// }
+// class Admin extends User {
+//     static role = {
+//         BASIC: "basic",
+//         SUPERUSER: "superuser",
+//     }
+
+//     blacklistedEmails = [];
+
+//     constructor(params) {
+//         super(params.email);
+//         this.access = params.access;
+//     }
+
+//     blacklist(email) {
+//         this.blacklistedEmails.push(email);
+//     }
+
+//     isBlacklisted(email) {
+//         return this.blacklistedEmails.includes(email);
+//     }
+// }
+
+// const mango = new Admin({
+//   email: "mango@mail.com",
+//   access: Admin.role.SUPERUSER,
+// });
