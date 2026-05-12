@@ -141,3 +141,13 @@
    HTML-документ і DOM. HTML-парсер.
    Пошук елементів. querySelector(selector) / querySelectorAll(selector).
    Навігація по DOM. Предок. Нащадок. Батько. Дитина. Сусід.
+2. ВЛАСТИВОСТІ ТА АТРИБУТИ.
+   Доступ до властивостей. - document.querySelector(".");
+   Властивість textContent. Доступ та зміна.
+   Властивість classList.
+   Метод classList.contains(className).
+   Метод classList.add(className).
+   Метод classList.remove(className).
+   Метод classList.toggle(className).
+   Метод classList.replace(oldClassName, newClassName)
+   Властивість style.
