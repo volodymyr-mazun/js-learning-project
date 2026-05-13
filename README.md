@@ -157,3 +157,9 @@
    Метод element.setAttribute(nameAttribute, value) - додавання атрибуту та значення атрибуту.
    Метод element.removeAttribute(nameAttribute) - видалення атрибуту.
    ВЛАСНІ АТРИБУТИ. Отримання та зміна значення.
+3. СТВОРЕННЯ ТА ВИДАЛЕННЯ ЕЛЕМЕНТІВ.
+   Створення елементів - document.createElement("");
+   Додавання елементів.
+   Видалення елементів.
+   Властивість INNERHTML.
+   Метод INSERTADJACENTHTML.

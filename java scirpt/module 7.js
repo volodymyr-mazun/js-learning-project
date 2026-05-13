@@ -32,3 +32,10 @@
 // const closeBtn = document.querySelector("button[data-action='close']");
 // openBtn.dataset.action = "newOpen";
 // openBtn.dataset.action;
+
+//* ========== СТВОРЕННЯ ЕЛЕМЕНТА. ==========
+// const heading = document.createElement("h1");
+// heading.textContent = "This is a heading";
+// heading.style.fontSize = "24px";
+// heading.classList.add("description");
+// heading.setAttribute("id", "text");
