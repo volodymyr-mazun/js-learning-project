@@ -11,3 +11,24 @@
 //* ========== ВЛАСТИВІСТЬ STYLE. ==========
 // const nameButton = document.querySelector(".button");
 // nameButton.style.backgroundColor = "green";
+
+//* ========== ВЛАСТИВІСТЬ CLASSLIST. ==========
+// const newLink = document.querySelector(".link");
+// newLink.classList.contains("link");
+// newLink.classList.add("is-open");
+// newLink.classList.remove("is-open");
+// newLink.classList.toggle("link");
+// newLink.classList.replace("link", "firstLink");
+
+//* ========== ДОСТУП ДО АТРИБУТІВ. ==========
+// const newImage = document.querySelector(".image");
+// newImage.hasAttribute("src");
+// newImage.getAttribute("alt");
+// newImage.setAttribute("alt", "Amazing nature");
+// newImage.removeAttribute("alt");
+
+//* ========== ВЛАСНІ АТРИБУТИ. ==========
+// const openBtn = document.querySelector("button[data-action=''open]");
+// const closeBtn = document.querySelector("button[data-action='close']");
+// openBtn.dataset.action = "newOpen";
+// openBtn.dataset.action;

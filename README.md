@@ -143,11 +143,17 @@
    Навігація по DOM. Предок. Нащадок. Батько. Дитина. Сусід.
 2. ВЛАСТИВОСТІ ТА АТРИБУТИ.
    Доступ до властивостей. - document.querySelector(".");
-   Властивість textContent. Доступ та зміна.
-   Властивість classList.
-   Метод classList.contains(className).
-   Метод classList.add(className).
-   Метод classList.remove(className).
-   Метод classList.toggle(className).
-   Метод classList.replace(oldClassName, newClassName)
-   Властивість style.
+   ВЛАСТИВІСТЬ TEXTCONTENT. Доступ та зміна.
+   ВЛАСТИВІСТЬ STYLE.
+   ВЛАСТИВІСТЬ CLASSLIST - масив класів:
+   Метод classList.contains(className) - перевірка наявності класу.
+   Метод classList.add(className) - додавання класу.
+   Метод classList.remove(className) - видалення класу.
+   Метод classList.toggle(className) - видалення/додавання класу.
+   Метод classList.replace(oldClassName, newClassName) - заміна класу.
+   ДОСТУП ДО АТРИБУТІВ.
+   Метод element.hasAttribute(nameAttribute) - перевірка наявності атрибуту.
+   Метод element.getAttribute(nameAttribute) - отримання значення атрибуту.
+   Метод element.setAttribute(nameAttribute, value) - додавання атрибуту та значення атрибуту.
+   Метод element.removeAttribute(nameAttribute) - видалення атрибуту.
+   ВЛАСНІ АТРИБУТИ. Отримання та зміна значення.
