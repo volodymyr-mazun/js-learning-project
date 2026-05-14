@@ -39,3 +39,28 @@
 // heading.style.fontSize = "24px";
 // heading.classList.add("description");
 // heading.setAttribute("id", "text");
+
+//* ========== СТВОРЕННЯ ЕЛЕМЕНТА, ДОДАВАННЯ. ==========
+// const heading = document.querySelector("h2");
+// heading.textContent = "This is a heading";
+// heading.style.fontSize = "24px";
+// heading.classList.add("title");
+// const mainTitle = document.querySelector(".head");
+// mainTitle.append(heading);
+
+//* ========== ВИДАЛЕННЯ ЕЛЕМЕНТА. ==========
+// const deleteElem = document.querySelector(".text");
+// deleteElem.remove();
+
+//* ========== ВЛАСТИВІСТЬ INNERHTML. ==========
+// const innerBox = document.querySelector(".box");
+// innerBox.innerHTML = `<p class="text" style="color: gray">Insert the text as a sample on the page in the middle of the finished tag.</p>`;
+
+//* ========== ВЛАСТИВІСТЬ INNERHTML. ==========
+// const list = document.querySelector(".list");
+// const newTechnologies = ["Reach", "TypeScript", "Node.js"];
+// const markup = newTechnologies
+//   .map((technology) => `<li class="list-item new">${technology}</li>`)
+//   .join("");
+// list.insertAdjacentHTML("beforeend", markup);
+// list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
