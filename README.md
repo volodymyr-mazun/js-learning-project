@@ -163,3 +163,9 @@
    Видалення елементів - remove.
    ВЛАСТИВІСТЬ INNERHTML.
    МЕТОД INSERTADJACENTHTML.
+4. ПОДІЇ.
+   Метод addEventListener().
+   Метод removeEventListener().
+   Об'єкт події - event.
+   Події клавіатури - keydown / keyup.
+   Властивості - event.key / event.code.
