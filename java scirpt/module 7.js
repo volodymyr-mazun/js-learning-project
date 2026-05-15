@@ -64,3 +64,26 @@
 //   .join("");
 // list.insertAdjacentHTML("beforeend", markup);
 // list.insertAdjacentHTML("beforebegin", "<h2>Popular technologies</h2>");
+
+//* ========== МЕТОД ADDEVENTLISTENER. ==========
+// const button = document.querySelector(".my-button");
+// const handleClick = () => {
+//   console.log("The button was pressed and now the next image will appear");
+// };
+// button.addEventListener("click", handleClick);
+
+//* ========== МЕТОД REMOVEEVENTLISTENER. ==========
+// const newButton = document.querySelector(".button");
+// const handleClick = (event) => {
+//   console.log(event.currentTarget);
+//   newButton.removeEventListener("click", handleClick);
+// };
+// newButton.addEventListener("click", handleClick);
+
+//* ========== ПОДІЇ КЛАВІАТУРИ. ==========
+// document.addEventListener("keydown", (event) => {
+//   console.log("Keydown: ", event.key);
+// });
+// document.addEventListener("keyup", (event) => {
+//   console.log("Keyup: ", event.code);
+// });
