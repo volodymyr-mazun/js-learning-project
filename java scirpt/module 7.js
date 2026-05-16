@@ -87,3 +87,21 @@
 // document.addEventListener("keyup", (event) => {
 //   console.log("Keyup: ", event.code);
 // });
+
+//* ========== ПОДІЇ SUBMIT. ==========
+// const registerForm = document.querySelector(".form");
+// registerForm.addEventListener("submit", handleSubmit);
+
+// function handleSubmit(event) {
+//   event.preventDefault();
+//   const form = event.target;
+//   const login = form.elements.login.value;
+//   const password = form.elements.password.value;
+
+//   if (login === "" || password === "") {
+//     return console.log("Please, fill all the fields");
+//   }
+
+//   console.log(`${login} ${password}`);
+//   form.reset();
+// }
